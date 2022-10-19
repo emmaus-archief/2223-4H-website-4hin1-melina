@@ -45,17 +45,38 @@ p {
 
 /* Indeling voor hoofd pagina */
 
-.kolomLinks {
-  float:left;
-  width:250px;
-  padding-right:15px;           /* afstand tussen plaatje en rechterkolom */
+.plaatje {
+   width:175px;
+  margin:15px;
+  padding-right:15px;           /* afstand tussen plaatje en rechterkolom */ 
 }
-.kolomRechts {
+.plaatjeLinks {
+  float:left;
+}
+.plaatjeRechts {
+  float:right;
+}
+.tekstLinks {
   float:left;
   width: 450px;
 }
+.tekstRechts {
+  float:right;
+  width: 450px;
+}
+
 .kolomStop {
   clear:both;                   /* stop met floaten */
+}
+
+.tekstlinks{
+float:left;
+width: 450px;
+margin:15px;} 
+.tekstrechts{
+ float:right;
+  width:450px;
+  margin: 15px;
 }
 
 /* Opmaak voor alle pagina's */
