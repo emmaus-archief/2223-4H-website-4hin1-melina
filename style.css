@@ -49,7 +49,7 @@ p {
    width:175px;
   margin:15px;
   padding-right:15px;           /* afstand tussen plaatje en rechterkolom */ 
-}
+} 
 .plaatjeLinks {
   float:left;
 }
