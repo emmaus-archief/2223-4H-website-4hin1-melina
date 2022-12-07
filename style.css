@@ -45,16 +45,23 @@ p {
 
 /* Indeling voor hoofd pagina */
 
-.plaatje {
-   width:175px;
-  margin:15px;
-  padding-right:15px;           /* afstand tussen plaatje en rechterkolom */ 
-} 
+
 .plaatjeLinks {
   float:left;
+  width: 200px;
+  border:solid 2px white;
+  margin:10px;
+}
+.plaatjeLinks img {
+  width:100%;
 }
 .plaatjeRechts {
   float:right;
+  width:200px;
+}
+.plaatjeRechts img {
+  width:100%;
+  margin:10px;
 }
 .tekstLinks {
   float:left;
@@ -63,22 +70,8 @@ p {
 .tekstRechts {
   float:right;
   width: 450px;
-}
+} 
 
-.kolomStop {
-  clear:both;                   /* stop met floaten */
-}
-
-.tekstlinks{
-float:left;
-width: 450px;
-margin:15px;} 
-
-.tekstrechts{
- float:right;
-  width:450px;
-  margin: 15px;
-}
 
 /* Opmaak voor alle pagina's */
 
