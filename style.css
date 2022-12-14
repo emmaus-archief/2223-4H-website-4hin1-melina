@@ -1,8 +1,8 @@
 /* Instellingen om fouten te helpen vinden, uncomment om aan te zetten */
 
 * {                                          /* geldt voor alles */
-    /* border: 1px dotted black;         */  /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien, letop dat dit de layout soms kan wijzigen */
-    /* background-color: rgba(0,0,0,5%); */  /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
+      /*border: 1px dotted black;         */  /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien, letop dat dit de layout soms kan wijzigen */
+     /*background-color: rgba(0,0,0,5%);*/  /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
 }
 
 /* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
@@ -48,18 +48,21 @@ p {
 
 .plaatjeLinks {
   float:left;
-  width: 200px;
+  width:200px;
   border:solid 2px white;
   margin:10px;
 }
 .plaatjeLinks img {
+  float:left;
   width:100%;
 }
 .plaatjeRechts {
   float:right;
   width:200px;
+  margin:10px;
 }
 .plaatjeRechts img {
+  float:right;
   width:100%;
   margin:10px;
 }
@@ -70,7 +73,13 @@ p {
 .tekstRechts {
   float:right;
   width: 450px;
+  position:relative;
+  top:10px;
 } 
+.gifs{
+  border:solid 2px white;
+  width:215px;
+}
 
 
 /* Opmaak voor alle pagina's */
