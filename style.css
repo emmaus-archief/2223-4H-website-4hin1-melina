@@ -82,6 +82,7 @@ p {
 }
 
 
+
 /* Opmaak voor alle pagina's */
 
 h1, h2, h3 {
@@ -101,7 +102,15 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.characters{
+  width:90px;
+  float:left;
+  margin:10px;
+}
 
+#hoofdpersoon {
+  width:80px;
+}
 
 /* Navigatiebalk voor alle pagina's */
 nav ul {
