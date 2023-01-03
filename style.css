@@ -64,11 +64,15 @@ p {
 .plaatjeRechts img {
   float:right;
   width:100%;
-  margin:10px;
+  border:solid 2px white;
+  bottom:10px;
 }
 .tekstLinks {
+  padding:5px;
   float:left;
   width: 450px;
+  position:relative;
+  top:8px;
 }
 .tekstRechts {
   float:right;
