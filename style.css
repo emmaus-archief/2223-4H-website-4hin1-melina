@@ -104,13 +104,9 @@ a:hover {
 }
 .characters{
   width:90px;
-  float:left;
   margin:10px;
 }
 
-#hoofdpersoon {
-  width:80px;
-}
 
 /* Navigatiebalk voor alle pagina's */
 nav ul {
