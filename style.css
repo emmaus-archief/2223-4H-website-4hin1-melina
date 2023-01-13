@@ -57,8 +57,9 @@ p {
   width:100%;
 }
 .plaatjeRechts {
+  border:solid 2px white;
   float:right;
-  width:200px;
+  width:215px;
   margin:10px;
 }
 .plaatjeRechts img {
@@ -70,13 +71,13 @@ p {
 .tekstLinks {
   padding:5px;
   float:left;
-  width: 450px;
+  width:450px;
   position:relative;
   top:8px;
 }
 .tekstRechts {
   float:right;
-  width: 450px;
+  width:450px;
   position:relative;
   top:10px;
 } 
